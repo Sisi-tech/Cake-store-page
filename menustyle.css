@@ -4,13 +4,13 @@
 }
 
 .navContainer {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     margin: 0px;
     padding-top: 10px;
-    /* padding-left: 200px; */
     border: ridge 2px;
     flex-wrap: wrap;
     
@@ -42,6 +42,11 @@
     border: groove 2px pink;
     border-radius: 120px;
     box-shadow: 3px 3px 10px pink;
+}
+
+.search-btn-container {
+    position: relative;
+    display: flex;
 }
 
 .head-container img {
