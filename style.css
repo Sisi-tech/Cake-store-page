@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+    padding-top: 10px;
+    /* padding-left: 200px; */
+    border: ridge 2px;
+    flex-wrap: wrap;
+    
+}
+
+.navItem ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
+}
+
+.navItem ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 60px;
+    font-size: 24px;
+}
+
+.navContainer ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.navPhoto img {
+    width: 100px;
+    height: 80px;
+    border: groove 2px pink;
+    border-radius: 120px;
+    box-shadow: 3px 3px 10px pink;
+}
+
+.head {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   padding: 20px;
+   background-color: rgb(252, 210, 217, 0.1);
+   margin-top: 40px;
+}
+
+.head img {
+    width: 40%;
+    height: 40%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 6px rgb(252, 210, 217);
+}
+
+.head p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2.2;
+    font-size: 20px;
+}
+
+.mainCakeContainer {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.fullcakeContainer, .sliceCake {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.fullCakes1, .cakes1 {
+    height: 460px;
+    background-color: rgb(249, 241, 249, 0.4);
+    border: soild 2px wheat;
+    line-height: 2.0;
+    margin: 15px 10px 15px 10px;
+}
+
+.fullCakes2, .cakes2 {
+    height: 800px;
+    background-color: rgb(249, 241, 249, 0.4);
+    border: soild 2px wheat;
+    line-height: 2.0;
+    margin: 15px 10px 15px 10px;
+}
+
+.fullCakes1 img, .cakes1 img {
+    width: 440px;
+    height: 300px;
+}
+
+.fullCakes2 img, .cakes2 img {
+    width: 440px;
+    height: 640px;
+}
+
+.fullcakeContainer img, .sliceCake img {
+    border-radius: 6px;
+}
+
+h1 {
+    padding: 50px 0 50px 0;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 100px 0 100px 0;
+    font-size: 18px;
+    background-color: rgba(249, 201, 209, 0.1);
+    margin-top: 40px;
+}
+
+.name, .price {
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px pink;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 1.8;
+}
+
+.activity {
+    text-align: left;
+    padding-right: 40px;
+}
+
+#touch {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.webContact img {
+    width: 26px;
+    height: 26px;
+}
+
+.socialMedia {
+    line-height: 3.0;
+}
+
+
